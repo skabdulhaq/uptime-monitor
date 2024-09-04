@@ -5,11 +5,16 @@ repo: uptime-monitor # The name of this repository
 sites:
   - name: Abdul Haq Portfolio
     url: https://abdulhaq.me/
+    expectedStatusCodes:
+      - 4xx
   - name: 1nf1n1ty landing page
     url: https://1nf1n1ty.team/
+    expectedStatusCodes:
+      - 4xx
   - name: 1nf1n1ty CTF
     url: https://ctf.1nf1n1ty.team/
-    
+    expectedStatusCodes:
+      - 4xx
 
 
 status-website:
